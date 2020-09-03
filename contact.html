@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact detail</title>
+    <style>
+        body {
+
+            margin: 0px;
+            padding: 0px;
+            background: url(codweb.jpg);
+            height: 100%;
+        }
+
+        .left {
+            background-color: #0beedfed;
+            width: 200px;
+            top: 0%;
+            position: absolute;
+            text-align: center;
+            height: 100%;
+        }
+
+        .left img {
+            width: 150px;
+            height: 250px;
+            border-radius: 20%;
+            margin-top: 20px;
+        }
+
+        .rightside {
+
+
+            color: white;
+            background-position: top;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        .social {
+            display: flex;
+        }
+
+        .social a {
+            position: relative;
+            display: block;
+            font-size: 20px;
+            height: 40px;
+            width: 30px;
+            background: transparent;
+            border-color: wheat;
+            line-height: 40px;
+            border-radius: 50%;
+            margin: 0 5px;
+            cursor: pointer;
+            margin-left: 12px;
+        }
+
+        .fa {
+            margin-top: 20px;
+        }
+
+        .fa-facebook {
+            color: rgb(12, 34, 236);
+        }
+
+        .fa-linkedin {
+            color: rgb(32, 169, 223);
+        }
+
+        .fa-github {
+            color: rgb(25, 216, 127);
+        }
+
+        .fa-instagram {
+            color: rgb(235, 82, 202);
+        }
+
+        .fa:hover {
+            opacity: 0.7;
+            color: black;
+            font-size: 35px;
+        }
+
+        h3 {
+            color: rgba(3, 5, 5, 0.781);
+
+        }
+
+
+        .about a:hover {
+            color: black;
+            font-size: 20px;
+        }
+
+        .about a {
+            padding: 30px 28px 8px 32px;
+            text-decoration: none;
+            font-size: 18px;
+            color: rgba(249, 254, 255, 0.959);
+            display: block;
+            padding-bottom: 0px;
+        }
+
+        .insidetext {
+            color: rgb(255, 253, 253);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+        
+        }
+
+        /* contactform */
+        body {
+            margin: 0px;
+            padding: 0px;
+            text-align: center;
+           
+
+        }
+
+        .contacttitle {
+            color: white;
+            margin-top: 100px;
+            text-transform: uppercase;
+            transition: all 4s ease-in-out;
+
+
+        }
+
+        .contacttitle h1 {
+            font-size: 50px;
+            line-height: 100px;
+            color: coral;
+        }
+
+        .contacttitle h2 {
+            font-size: 25px;
+        }
+
+        .form {
+            
+            margin-top: 15px;
+            transition: all 4s ease-in-out;
+            background-color: blanchedalmond;
+            
+
+        }
+
+        .formcontrol {
+            width: 600px;
+            background: transparent;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid rgb(250, 161, 45);
+            color: white;
+            font-size: 18px;
+            margin-bottom: 18px;
+
+        }
+        
+
+        .form:hover {
+            background-color: rgb(255, 220, 19);
+            cursor: pointer;
+
+        }
+
+        input {
+            height: 45px;
+
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="contacttitle">
+
+            <h1> Don't be stranger Say HELLO !!</h1>
+            <h2>connect me</h2>
+        </div>
+
+        <div class="contactform">
+            <form id="contactform" method="POST" action="contact.php">
+                <input name="name" type="text" class="formcontrol" placeholder="your name" required><br>
+                <input name="Email" type="Email" class="formcontrol" placeholder="your Email" required><br>
+                <textarea name="message" class="formcontrol " placeholder="message " row="4" required></textarea><br>
+                <input type="submit" class="form" value="submit now" placeholder="send message">
+            </form>
+
+    </header>
+    <div class="left">
+        <img src="chet.jpeg" width="250px" height="250px"><br>
+
+        <h3>CHETAN KAMBLE</h3>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/chetan-kamble-0239561b5/?trk=public-profile-join-page" class="fa fa-linkedin-square"></a>
+            <a href="https://www.facebook.com/chetan.kamble.rocky" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-github"></a>
+            <a href="#" class="fa fa-instagram"></a>
+
+        </div>
+
+
+        <div class="about">
+
+
+            <a href="home1.html"> Home</a>
+            <a href="education.html"> Education</a>
+            <a href="skills.html"> Skills</a>
+            <a href="certi.html"> Certifications</a>
+            <a href="contact.html"> Contact</a>
+
+        </div>
+</body>
+
+</html>
